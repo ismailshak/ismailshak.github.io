@@ -3,9 +3,9 @@ body {
     background-color: rgb(225, 225, 225);
 }
 
+/* styles the header at the top of the page */
 .canvas {
     height: 100vh;
-    /* background: linear-gradient(-45deg, rgb(255, 255, 255), rbg(0,0,0)) scroll; */
     background-image: url("../img/canvas-background.jpg");
     background-size: cover;
     display: grid;
@@ -13,6 +13,7 @@ body {
     grid-template-columns: 20% 1fr 20%;
 }
 
+/* h1 is the text at the top of the canvas, i.e. my name */
 h1 {
     font-weight: normal;
     font-size: 40px;
@@ -45,9 +46,6 @@ h1 {
 }
 
 .project-container {
-    /* display: grid; 
-    grid-template-rows: 25vh 250px 250px 20vh;
-    grid-template-columns: 10% 1fr 10%; */
     display: flex;
     flex-direction: column
 }
@@ -60,14 +58,6 @@ h1 {
 }
 
 .project-content {
-    /* grid-row: 2 / span 2;
-    grid-column: 2;
-    justify-self: stretch;
-    align-self: stretch;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-between; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -109,10 +99,11 @@ h1 {
 }
 
 .contact-form {
-    width: 60%;
+    width: 50%;
 
 }
 
+/* covers all the content thats below the main header canvas */
 .main-content {
     display:flex;
     flex-direction: column;
@@ -133,7 +124,6 @@ input[name="text-box"]
 }
 
 hr {
-    /* border-top: 1px solid rgb(29, 30, 35); */
     display: block;
     height: 2px;
     width: 80%;
