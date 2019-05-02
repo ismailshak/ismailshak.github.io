@@ -1,0 +1,53 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.canvas {
+    height: 100vh;
+    background-image: url("../img/canvas-background.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-columns: 20% 1fr 20%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.navigation-container {
+    grid-row: 3;
+    grid-column: 2;
+    justify-self: stretch;
+    align-self: center;
+}
+
+.navigation {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    flex: wrap;
+    
+}
+
+li {
+    
+}
+
+
+
+.name {
+    color: crimson;
+}
