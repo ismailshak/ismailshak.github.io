@@ -14,40 +14,46 @@
     </head>
     <body>
         <header class="canvas">
-            <h1>Hello, <span class="name">I'm Ismail Elshakankiry</span>.<br> I'm a Software Engineer</h1>
+            <h1>Hello, I'm <span class="name">Ismail Elshakankiry</span>.<br> I'm a Software Engineer</h1>
             <nav class="navigation-container">
-                <ul class="navigation">
+                <!-- <ul class="navigation">
                     <li>Projects</li>
                     <li>Skills</li>
                     <li>Contact</li>
-                </ul>
+                </ul> -->
+                <p class="navigation">(Button to press that scrolls to top of projects)</p>
             </nav>
         </header>
         <main class="main-content">
-            <div class="projects-container">
-                <h2>Projects</h2>
-                <div class="projects-content">
-                    <div class="project1">Project 1</div>
-                    <div class="project2">Project 2</div>
-                    <div class="project3">Project 3</div>
+            <div class="project-container">
+                <h2 class="project-header">Projects</h2>
+                <div class="project-content">
+                    <div class="project1 project-icon">Project 1</div>
+                    <div class="project2 project-icon">Project 2</div>
+                    <div class="project3 project-icon">Project 3</div>
                 </div>
             </div>
+            <hr>
             <div class="skills-container">
-                <h2>Skills</h2>
+                <h2 class="skills-header">Skills</h2>
                 <div class="skills-diagram">
                     <img src="https://via.placeholder.com/300?text=Skills+Bar+Chart+Here" alt="diagram placeholder">
                 </div>
             </div>
+            <hr>
             <div class="contact-container">
-                <h2>Contact Me</h2>
+                <h2 class="contact-header">Contact Me</h2>
                 <form class="contact-form">
-                        First name:<br>
+                        First name:
                         <input type="text" name="firstname"><br>
-                        Last name:<br>
-                        <input type="text" name="lastname">
-                        Email:<br>
-                        <input type="email" name="email">
+                        Last name:
+                        <input type="text" name="lastname"><br>
+                        Email:
+                        <input type="email" name="email"><br>
+                        Message:
+                        <input type="text" name="text-box"> <br>
                         <input type="submit" value="Submit">
+                        
                       </form>
             </div>
         </main>
