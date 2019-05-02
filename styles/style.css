@@ -109,7 +109,7 @@ h1 {
 }
 
 .contact-form {
-    width: 80vh;
+    width: 60%;
 
 }
 
@@ -121,7 +121,7 @@ h1 {
 }
 
 input {
-    width: 80vh;
+    width: 100%;
     margin: 0;
     box-sizing: border-box;
     overflow: visible;
