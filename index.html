@@ -10,6 +10,7 @@
         />
         <link rel="stylesheet" href="styles/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Ismail Elshakankiry</title>
     </head>
     <body>
@@ -25,7 +26,13 @@
             </nav>
         </header>
         <main class="main-content">
-            <div class="project-container">
+            <div class="about-container main-blocks">
+                <h2 class="about-header">About Me</h2>
+                <div class="about-content">
+                    <p class="about-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio id recusandae quasi ea similique alias mollitia. Quibusdam tenetur officia explicabo quidem exercitationem. Qui iure aperiam quibusdam eius atque. Saepe, corrupti.</p>
+                </div>
+            </div>
+            <div class="project-container main-blocks">
                 <h2 class="project-header">Projects</h2>
                 <div class="project-content">
                     <div class="project1 project-icon">Project 1</div>
@@ -33,15 +40,15 @@
                     <div class="project3 project-icon">Project 3</div>
                 </div>
             </div>
-            <hr>
-            <div class="skills-container">
+            <!-- <hr> -->
+            <div class="skills-container main-blocks">
                 <h2 class="skills-header">Skills</h2>
                 <div class="skills-diagram">
                     <img src="https://via.placeholder.com/300?text=Skills+Bar+Chart+Here" alt="diagram placeholder">
                 </div>
             </div>
-            <hr>
-            <div class="contact-container">
+            <!-- <hr> -->
+            <div class="contact-container main-blocks">
                 <h2 class="contact-header">Contact Me</h2>
                 <form class="contact-form">
                         First name:<br>
@@ -51,14 +58,19 @@
                         Email:<br>
                         <input type="email" name="email"><br>
                         Message:<br>
-                        <input type="text" name="text-box"> <br>
+                        <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
                         <input type="submit" value="Submit">
                         
                       </form>
             </div>
         </main>
-        <footer>
-
+        <footer class="main-blocks">
+            <ul class="socials">
+                <li><a href="#" class="fa"><img src="img/Github.png"></a></li>
+                <li>ismailelshakankiry@gmail.com</li>
+                <li><a href="#" class="fa"><img src="img/Twitter.png"></a></li>
+                
+            </ul>
         </footer>
     </body>
 </html>

@@ -1,6 +1,23 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(235, 233, 233);
+}
+
+.main-blocks:nth-child(even) {
+    background-color: rgb(29, 30, 35);
+    color: white;
+}
+
+.main-blocks:nth-child(even) h2 {
+    color: white;
+}
+
+.main-blocks {
+    padding: 3rem 0;
+}
+
+.main-blocks footer {
+    padding: 1rem 0;
 }
 
 /* styles the header at the top of the page */
@@ -45,16 +62,22 @@ h1 {
     
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-description {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
 .project-container {
     display: flex;
     flex-direction: column
-}
-
-.project-header {
-    grid-row: 1;
-    grid-column: 1 / span 3;
-    justify-self: center;
-    align-self: center;
 }
 
 .project-content {
@@ -74,10 +97,17 @@ h1 {
     margin: 20px;
 }
 
-.project-header, .skills-header, .contact-header {
+.project-header, .skills-header, .contact-header, .about-header {
     font-weight: normal;
     color: rgb(29, 30, 35);
     font-size: 32px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+h2:nth-child(even) {
+    color: white;
 }
 
 .skills-container {
@@ -100,6 +130,7 @@ h1 {
 
 .contact-form {
     width: 50%;
+    margin-bottom: 30px;
 
 }
 
@@ -108,32 +139,44 @@ h1 {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-around;
 }
 
-input {
+input, textarea {
     width: 100%;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
     overflow: visible;
-}
-
-input[name="text-box"]
-{
-    height: 200px;
-}
-
-hr {
-    display: block;
-    height: 2px;
-    width: 80%;
-    border: 0;
-    border-top: 1px solid #ccc;
-    padding: 0;
-    
+    resize: none;
 }
 
 .name {
     color: rgb(235, 65, 99);
     font-size: 56px;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials img {
+    width:40px;
+    height:40px;
+    margin-right: 20px;
+}
+
+.fa {
+    /* padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; */
+}
+  
+.fa:hover {
+    opacity: 0.7;
 }
