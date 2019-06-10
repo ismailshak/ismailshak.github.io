@@ -95,6 +95,7 @@ h1 {
     background-image: url("https://via.placeholder.com/?text=picture+of+project");
     background-color: lightgray;
     margin: 20px;
+    text-align: center;
 }
 
 .project-header, .skills-header, .contact-header, .about-header {
