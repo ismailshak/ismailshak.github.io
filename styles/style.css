@@ -188,7 +188,7 @@ input, textarea {
       margin-top: 100px;
     }
 
-    #name {
+    .name {
         font-size: 32px;
     }
   }
