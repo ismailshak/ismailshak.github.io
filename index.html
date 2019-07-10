@@ -22,17 +22,22 @@
                     <li>Skills</li>
                     <li>Contact</li>
                 </ul> -->
-                <p class="navigation">(Button to press that scrolls to top of projects)</p>
+                <div class="buttons-container">
+                    <a href="#projects" class="nav-links">Projects</a>
+                    <a href="#skills" class="nav-links">Skills</a>
+                    <a href="#contact" class="nav-links">Contact</a>
+                </div>
+                
             </nav>
         </header>
         <main class="main-content">
             <div class="about-container main-blocks">
                 <h2 class="about-header">About Me</h2>
                 <div class="about-content">
-                    <p class="about-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio id recusandae quasi ea similique alias mollitia. Quibusdam tenetur officia explicabo quidem exercitationem. Qui iure aperiam quibusdam eius atque. Saepe, corrupti.</p>
+                    <p class="about-description">Passionate. Hard working. Gritty. I am a curious Software Engineer with a fresh, creative approach. Driven by constant challenges and motivated by asking myself ‘how can I improve’, my goal is to solve complex problems so that future engineers don’t have to reinvent the wheel.</p>
                 </div>
             </div>
-            <div class="project-container main-blocks">
+            <div id="projects" class="project-container main-blocks">
                 <h2 class="project-header">Projects</h2>
                 <div class="project-content">
                     <div class="project1 project-icon"><a href="https://brick-break-project1.herokuapp.com/">Brick Breaker</a></div>
@@ -41,16 +46,16 @@
                 </div>
             </div>
             <!-- <hr> -->
-            <div class="skills-container main-blocks">
+            <div id="skills" class="skills-container main-blocks">
                 <h2 class="skills-header">Skills</h2>
                 <div class="skills-diagram">
                     <img src="https://via.placeholder.com/300?text=Skills+Bar+Chart+Here" alt="diagram placeholder">
                 </div>
             </div>
             <!-- <hr> -->
-            <div class="contact-container main-blocks">
+            <div id="contact" class="contact-container main-blocks">
                 <h2 class="contact-header">Contact Me</h2>
-                <form class="contact-form">
+                <form class="contact-form" action="https://formspree.io/ismailelshakankiry@gmail.com" method="POST">
                         First name:<br>
                         <input type="text" name="firstname"><br>
                         Last name:<br>
@@ -59,9 +64,9 @@
                         <input type="email" name="email"><br>
                         Message:<br>
                         <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
-                        <input type="submit" value="Submit">
+                        <input class="form-submit" type="submit" value="Submit">
                         
-                      </form>
+                </form>
             </div>
         </main>
         <footer class="main-blocks">
