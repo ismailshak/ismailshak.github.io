@@ -10,18 +10,13 @@
         />
         <link rel="stylesheet" href="styles/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <title>Ismail Elshakankiry</title>
     </head>
     <body>
         <header class="canvas">
             <h1>Hello, I'm <span class="name">Ismail Elshakankiry</span>.<br> I'm a Software Engineer</h1>
             <nav class="navigation-container">
-                <!-- <ul class="navigation">
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
-                </ul> -->
                 <div class="buttons-container">
                     <a href="#projects" class="nav-links">Projects</a>
                     <a href="#skills" class="nav-links">Skills</a>
@@ -40,40 +35,48 @@
             <div id="projects" class="project-container main-blocks">
                 <h2 class="project-header">Projects</h2>
                 <div class="project-content">
-                    <div class="project1 project-icon"><a href="https://brick-break-project1.herokuapp.com/">Brick Breaker</a></div>
-                    <div class="project2 project-icon"><a href="https://satellites-api.herokuapp.com/">Satellites API</a></div>
-                    <div class="project3 project-icon"><a href="http://rec-creation.surge.sh/">Rec|Creation</a></div>
+                    <div class="project1 project-icon">
+                        <a href="https://brick-break-project1.herokuapp.com/">
+                            <img class="project-image" src="img/brickbreaker.png" />
+                        </a>
+                    </div>
+                    <div class="project2 project-icon">
+                        <a href="https://satellites-api.herokuapp.com/">
+                            <img class="project-image" src="img/usc-satellites.png" />
+                        </a>
+                    </div>
+                    <div class="project3 project-icon">
+                        <a href="http://rec-creation.surge.sh/">
+                            <img class="project-image" src="img/rec-creation.png" />
+                        </a>
+                    </div>
                 </div>
             </div>
-            <!-- <hr> -->
             <div id="skills" class="skills-container main-blocks">
                 <h2 class="skills-header">Skills</h2>
                 <div class="skills-diagram">
                     <img src="https://via.placeholder.com/300?text=Skills+Bar+Chart+Here" alt="diagram placeholder">
                 </div>
             </div>
-            <!-- <hr> -->
             <div id="contact" class="contact-container main-blocks">
                 <h2 class="contact-header">Contact Me</h2>
                 <form class="contact-form" action="https://formspree.io/ismailelshakankiry@gmail.com" method="POST">
-                        First name:<br>
-                        <input type="text" name="firstname"><br>
-                        Last name:<br>
-                        <input type="text" name="lastname"><br>
-                        Email:<br>
-                        <input type="email" name="email"><br>
-                        Message:<br>
-                        <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
-                        <input class="form-submit" type="submit" value="Submit">
-                        
+                    First name:<br>
+                    <input type="text" name="firstname"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname"><br>
+                    Email:<br>
+                    <input type="email" name="email"><br>
+                    Message:<br>
+                    <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
+                    <input class="form-submit" type="submit" value="Submit">
                 </form>
             </div>
         </main>
         <footer class="main-blocks">
             <ul class="socials">
-                <li><a href="#" class="fa"><img src="img/Github.png"></a></li>
-                <li>ismailelshakankiry@gmail.com</li>
-                <li><a href="#" class="fa"><img src="img/Twitter.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/ismail-elshakankiry" class="fa"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/ismailshak" class="fa"><i class="fab fa-github-square"></i></a></li>
                 
             </ul>
         </footer>

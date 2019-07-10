@@ -21,7 +21,7 @@ html {
 }
 
 .main-blocks footer {
-    padding: 1rem 0;
+    padding: 0;
 }
 
 /* styles the header at the top of the page */
@@ -115,9 +115,12 @@ h1 {
 
 }
 
+.project-image {
+    width: 100%;
+}
+
 .project-icon {
-    width: 300px;
-    height: 300px;
+    max-width: 500px;
     background-image: url("https://via.placeholder.com/?text=picture+of+project");
     background-color: lightgray;
     margin: 20px;
@@ -186,23 +189,16 @@ input, textarea {
     list-style: none;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-
-.socials img {
-    width:40px;
-    height:40px;
-    margin-right: 20px;
+    padding-left: 0;
+    
 }
 
 .fa {
-    /* padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%; */
+    font-size: 4rem;
+    color: rgb(29, 30, 35);
+    margin: 1rem;
 }
   
 .fa:hover {
@@ -240,5 +236,9 @@ input, textarea {
 
     .nav-links {
         min-width: 60px;
+    }
+
+    .project-icon {
+        width: 90%;
     }
   }
