@@ -115,16 +115,55 @@ h1 {
 
 }
 
+.project-button {
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: rgb(250, 65, 99);
+    border-radius: 5px;
+    color: white;
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+}
+
 .project-image {
     width: 100%;
+    border-radius: 5px;
+    
 }
 
 .project-icon {
-    max-width: 500px;
-    background-image: url("https://via.placeholder.com/?text=picture+of+project");
+    width: 500px;
+    height: 270px;
     background-color: lightgray;
     margin: 20px;
     text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 10px 10px 5px 0px rgba(250,250,250,0.75); */
+}
+
+.project1 {
+    background-image: url('../img/brickbreaker.png');
+    background-size: 100% 100%;
+    background-color: black;
+}
+.project2 {
+    background-image: url('../img/usc-satellites.png');
+    background-size: 100% 100%;
+    background-color: black;
+}
+.project3 {
+    background-image: url('../img/rec-creation.png');
+    background-size: 100% 100%;
+}
+.project4 {
+    background-image: url('../img/totallynotpictionary.png');
+    background-size: 100% 100%;
 }
 
 .project-header, .skills-header, .contact-header, .about-header {
@@ -149,6 +188,11 @@ h2:nth-child(even) {
 
 .skills-diagram {
     margin: 30px;
+    max-width: 90%;
+}
+
+.skills-diagram img {
+    width: 100%;
 }
 
 .contact-container {
@@ -240,5 +284,6 @@ input, textarea {
 
     .project-icon {
         width: 90%;
+        height: 170px;
     }
   }
