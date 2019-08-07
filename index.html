@@ -15,72 +15,117 @@
     </head>
     <body>
         <header class="canvas">
-            <h1>Hello, I'm <span class="name">Ismail Elshakankiry</span>.<br> I'm a Software Engineer</h1>
-            <nav class="navigation-container">
-                <div class="buttons-container">
-                    <a href="#about" class="nav-links">About</a>
-                    <a href="#projects" class="nav-links">Projects</a>
-                    <a href="#skills" class="nav-links">Skills</a>
-                    <a href="#contact" class="nav-links">Contact</a>
-                </div>
-                
-            </nav>
+                <h1>Hello, I'm <span class="name">Ismail Elshakankiry</span>.<br> I'm a Software Engineer</h1>
+                <div class="socials">
+                    <span><a href="https://www.linkedin.com/in/ismail-elshakankiry" target="_blank""><i class="fab fa-linkedin"></i></a></span>
+                    <span><a href="https://github.com/ismailshak" target="_blank"><i class="fab fa-github-square"></i></a></span>
+                    <span><a href="https://medium.com/@ismailshak94/recursion-for-the-uninitiated-3851cf69898" target="_blank"><i class="fab fa-medium"></i></a></span>
+                </div>   
+                <svg class="diagonal home-left" width="21%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
+                        <path d="M0 100 L100 100 L0 10 Z"></path>
+                </svg>
+                <svg class="diagonal home-right" width="80%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
+                        <path d="M0 100 L100 100 L100 10 Z"></path>
+                </svg>
         </header>
+        <nav id="navbar">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <main class="main-content">
-            <div id="about" class="about-container main-blocks">
-                <h2 class="about-header">About Me</h2>
-                <div class="about-content">
-                    <p class="about-description">Passionate. Hard working. Gritty. I am a curious Software Engineer with a fresh, creative approach. Driven by constant challenges and motivated by asking myself ‘how can I improve’, my goal is to solve complex problems so that future engineers don’t have to reinvent the wheel.</p>
+            <section>
+                <div id="about">
+                        <h2 class="section-header">About Me</h2>
+                        <div class="about-content">
+                            <p class="about-description">Passionate. Hard working. Gritty. I am a curious Software Engineer with a fresh, creative approach. Driven by constant challenges and motivated by asking myself ‘how can I improve’, my goal is to solve complex problems so that future engineers don’t have to reinvent the wheel.</p>
+                        </div>
                 </div>
-            </div>
-            <div id="projects" class="project-container main-blocks">
-                <h2 class="project-header">Projects</h2>
-                <div class="project-content">
-                    <div class="project1 project-icon">
-                        <a href="https://brick-break-project1.herokuapp.com/" class="project-button" target="_blank">Deployed Site</a>
-                        <a href="https://github.com/ismailshak/BrickBreaker" class="project-button" target="_blank">Github Repo</a>
-                    </div>
-                    <div class="project2 project-icon">
-                        <a href="https://satellites-api.herokuapp.com/" class="project-button" target="_blank">Deployed Site</a>
-                        <a href="https://github.com/ismailshak/USC-Satellites-API" class="project-button" target="_blank">Github Repo</a>
-                    </div>
-                    <div class="project3 project-icon">
-                        <a href="http://rec-creation.surge.sh/" class="project-button" target="_blank">Deployed Site</a>
-                        <a href="https://github.com/ismailshak/rec-creation" class="project-button" target="_blank">Github Repo</a>
-                    </div>
-                    <div class="project4 project-icon">
-                        <a href="http://totallynotpictionary.surge.sh/" class="project-button" target="_blank">Deployed Site</a>
-                        <a href="https://github.com/ismailshak/pictionary" class="project-button" target="_blank">Github Repo</a>
+            </section>
+            <section>
+                <div id="projects">
+                    <h2 class="section-header">Projects</h2>
+                    <div class="projects-container">
+                        <div class="project">
+                            <div class="project-icon">
+                                <img src="img/BrickBreaker.png"></img>
+                            </div>
+                            <div class="project-info">
+                                    <span class="project-description">I built a web version of the classic arcade game, Breakout. This project was built using Javascript, HTML/CSS and Phaser.js.</span>
+                                    <div class="project-links">
+                                            <a href="https://brick-break-project1.herokuapp.com/" class="project-button" target="_blank">Deployed Site</a>
+                                            <a href="https://github.com/ismailshak/BrickBreaker" class="project-button" target="_blank">Github Repo</a>
+                                    </div>
+                                    
+                            </div>
+                            
+                        </div>
+                        <!-- <div class="project">
+                            <span>project 2</span>
+                            <span>bla bla bla bla</span>
+                            <a href="https://satellites-api.herokuapp.com/" class="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://github.com/ismailshak/USC-Satellites-API" class="project-button" target="_blank">Github Repo</a>
+                        </div>
+                        <div class="project">
+                            <span>project 3</span>
+                            <span>bla bla bla bla</span>
+                            <a href="http://rec-creation.surge.sh/" class="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://github.com/ismailshak/rec-creation" class="project-button" target="_blank">Github Repo</a>
+                        </div>
+                        <div class="project">
+                            <span>project 4</span>
+                            <span>bla bla bla bla</span>
+                            <a href="http://totallynotpictionary.surge.sh/" class="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://github.com/ismailshak/pictionary" class="project-button" target="_blank">Github Repo</a>
+                        </div> -->
                     </div>
                 </div>
-            </div>
-            <div id="skills" class="skills-container main-blocks">
-                <h2 class="skills-header">Skills</h2>
-                <div class="skills-diagram">
-                    <img src="img/meta-chart.png" alt="diagram placeholder">
+            </section>
+            <section>
+                <div id="skills">
+                        <h2 class="skills-header">Skills</h2>
+                        <ul>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                            <li>A</li>
+                        </ul>
                 </div>
-            </div>
-            <div id="contact" class="contact-container main-blocks">
-                <h2 class="contact-header">Contact Me</h2>
-                <form class="contact-form" action="https://formspree.io/ismailelshakankiry@gmail.com" method="POST">
-                    First name:<br>
-                    <input type="text" name="firstname"><br>
-                    Last name:<br>
-                    <input type="text" name="lastname"><br>
-                    Email:<br>
-                    <input type="email" name="email"><br>
-                    Message:<br>
-                    <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
-                    <input class="form-submit" type="submit" value="Submit">
-                </form>
-            </div>
-        </main>
-        <footer class="main-blocks">
-            <ul class="socials">
-                <li><a href="https://www.linkedin.com/in/ismail-elshakankiry" class="fa"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/ismailshak" class="fa"><i class="fab fa-github-square"></i></a></li>
+            </section>
+            <section>
+                <div id="contact">
+                    <h2 class="contact-header">Contact Me</h2>
+                    <form class="contact-form" action="https://formspree.io/ismailelshakankiry@gmail.com" method="POST">
+                        First name:<br>
+                        <input type="text" name="firstname"><br>
+                        Last name:<br>
+                        <input type="text" name="lastname"><br>
+                        Email:<br>
+                        <input type="email" name="email"><br>
+                        Message:<br>
+                        <textarea cols = "60" rows = "5" name = "description" placeholder="Enter message here"></textarea><br>
+                        <input class="form-submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+            <!-- <footer class="main-blocks">
                 
-            </ul>
-        </footer>
+            </footer> -->
+        </main>
+        <script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>
