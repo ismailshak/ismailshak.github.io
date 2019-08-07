@@ -199,6 +199,26 @@ h2:nth-child(even) {
     max-width: 90%;
 }
 
+.skill-list-container {
+    padding: 4rem 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill {
+    border: 1px solid transparent;
+    color: white;
+    background-color:  rgb(29, 30, 35);
+    padding: 1rem;
+    border-radius: 5px;
+    width: 120px;
+    margin: 1rem;
+    text-align: center;
+}
+
 .skills-diagram img {
     width: 100%;
 }
